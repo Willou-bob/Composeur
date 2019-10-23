@@ -1,0 +1,19 @@
+{
+    "name": "will/test",
+    "description": "test composer",
+    "authors": [
+        {
+            "name": "Florentin Wilfried",
+            "email": "florentinwilfried@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0",
+        "swiftmailer/swiftmailer": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\" : "src"
+        }
+    }
+}
